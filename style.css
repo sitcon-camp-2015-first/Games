@@ -1,0 +1,54 @@
+body{
+	font-family:"微軟正黑體";
+	background-image:url(wp_201104_s.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+div{
+	color:black;
+	font-size:50px;
+}
+
+.lalala{
+	font-size:100px;
+}
+
+#text_option{
+	width:100px;
+}
+
+h1{
+	font-family:"微軟正黑體";
+	color:blue;
+	font-size:30px;
+}
+
+span{
+	font-size:20px;
+	color:green;
+	font-family: "Arial";
+}
+
+#title{
+	background: linear-gradient(#87B4C8, #5972D0);
+	background-image: linear-gradient(top, rgb(135, 180, 200), rgb(89, 114, 208));
+	color: blue;
+	width:500px;
+	opacity:0.5;
+	font-size:80px;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"微軟正黑體";
+}
+
+img:hover{
+	opacity:0.5;
+}
+
+.pi{
+	margin:auto;
+	margin-top:50px;
+	height:100px;
+	width:100px;
+}
