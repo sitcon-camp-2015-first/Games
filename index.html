@@ -7,6 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
+		function replace(){
+			var need = document.getElementById("need");
+			need.innerHTML = "<object type=\"application/x-shockwave-flash\" width=\"100%\" height=\"100%\"><param name=\"movie\" value=\"app:RT1.swf\"></param><param name=\"wmode\" value=\"opaque\"></param></object>";
+		}
 	</script>
 </head>
 <body>
@@ -16,9 +20,9 @@
 	</div>
 	<!--<img src="https://s-media-cache-ak0.pinimg.com/736x/d2/2b/83/d22b8350b122f3f1922279825cd63345.jpg" />-->
 	<a>
-	<img class="pi" src="sesen.png" />
+		<img class="pi" src="sesen.png" />
 	</a>
-	<a>
+	<a id="need" type="button" onclick="replace();">
 	<img class="pi" src="flash1.png" />
 	</a>
 	
